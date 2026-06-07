@@ -1,0 +1,514 @@
+[
+  {
+    "id": "e-commerce-suite",
+    "title": "E-COMMERCE SUITE",
+    "category": "RETAIL",
+    "slug": "ecommerce-suite",
+    "description": "Bridges physical inventory and digital store",
+    "quote": "Operate a 24/7 global marketplace.",
+    "price": 25000,
+    "features": [
+      "Real-time inventory sync across physical and digital channels",
+      "Secure payment gateway integration (PayMongo, PayPal, Stripe)",
+      "Automated order tracking and fulfillment notifications",
+      "Customer account management and purchase history",
+      "Dynamic discount and coupon code engine",
+      "Sales analytics and performance dashboard"
+    ]
+  },
+  {
+    "id": "auto-repair-crm",
+    "title": "AUTO REPAIR CRM",
+    "category": "LOGISTICS",
+    "slug": "auto-repair-crm",
+    "description": "Track vehicle live & history, parts, and labor",
+    "quote": "Build long-term customer loyalty.",
+    "price": 25000,
+    "features": [
+      "Comprehensive vehicle service history tracking",
+      "Live repair status updates for clients",
+      "Parts inventory and supplier management",
+      "Labor hour logging and mechanic assignment",
+      "Automated service reminders via SMS/Email",
+      "Digital invoicing and maintenance estimates"
+    ]
+  },
+  {
+    "id": "salon-spa-scheduler",
+    "title": "SALON/SPA SCHEDULER",
+    "category": "RETAIL",
+    "slug": "salon-spa-scheduler",
+    "description": "Online booking and staff commission tracking",
+    "quote": "Optimizes staff daily schedules.",
+    "price": 25000,
+    "features": [
+      "Interactive calendar with drag-and-drop scheduling",
+      "Online customer self-service booking portal",
+      "Staff roster, shift management, and commission calculations",
+      "Automated appointment confirmation and no-show protection",
+      "Service menu bundling and add-on sales options",
+      "Customer preferences and treatment notes database"
+    ]
+  },
+  {
+    "id": "pharmacy-counter",
+    "title": "PHARMACY COUNTER",
+    "category": "MEDICAL/CLINIC.HEALTH",
+    "slug": "pharmacy-counter",
+    "description": "Pharmacy pickup and counter management",
+    "quote": "Faster prescription dispensing.",
+    "price": 25000,
+    "features": [
+      "Prescription validation and dispensing workflow",
+      "Batch, lot tracking, and drug expiry alerts",
+      "Generic-to-brand alternative lookup tool",
+      "Senior citizen and PWD discount calculations",
+      "Real-time stock monitoring for critical medicines",
+      "Daily narcotics and controlled substances logs"
+    ]
+  },
+  {
+    "id": "biometric-connect",
+    "title": "BIOMETRIC CONNECT",
+    "category": "ENTERPRISE BUSINESS",
+    "slug": "biometric-connect",
+    "description": "Connect biometric devices to any system",
+    "quote": "Seamless biometric authentication across platforms.",
+    "price": 25000,
+    "features": [
+      "Hardware agnostic SDK/API for fingerprint & facial scanners",
+      "Real-time clock-in/out data streaming",
+      "Offline log buffering with auto-sync on recovery",
+      "Employee profile mapping and access control lists",
+      "Anti-spoofing and liveness detection algorithms",
+      "Direct integration with central HRIS/Payroll systems"
+    ]
+  },
+  {
+    "id": "member-management",
+    "title": "MEMBER MANAGEMENT",
+    "category": "FINANCIAL/LENDING",
+    "slug": "member-management",
+    "description": "Member self-service and engagement module",
+    "quote": "Increase member satisfaction and retention.",
+    "price": 30000,
+    "features": [
+      "Digital membership onboarding and profile portals",
+      "Tiered subscription, dues, and recurring billing",
+      "Loyalty points engine and rewards distribution",
+      "Event registration and digital attendance passes",
+      "Member forum and direct broadcast communications",
+      "Compliance tracking for member documentation"
+    ]
+  },
+  {
+    "id": "applicant-tracking",
+    "title": "APPLICANT TRACKING",
+    "category": "BPO",
+    "slug": "applicant-tracking",
+    "description": "Streamlined recruitment and hiring module",
+    "quote": "Reduces time-to-hire by 50%.",
+    "price": 35000,
+    "features": [
+      "Custom hiring pipelines with drag-and-drop kanban boards",
+      "Resume parsing and structural profile building",
+      "Automated interview scheduling with calendar sync",
+      "Collaborative scorecards and interviewer feedback loops",
+      "Bulk background check status pipelines",
+      "E-signature offer letters and onboarding document flows"
+    ]
+  },
+  {
+    "id": "recipe-costing",
+    "title": "RECIPE COSTING",
+    "category": "FOOD & BEVERAGES",
+    "slug": "recipe-costing",
+    "description": "F&B cost control and menu engineering",
+    "quote": "Maximize profit margins on every dish.",
+    "price": 35000,
+    "features": [
+      "Ingredient-level breakdown and fractional pricing structures",
+      "Yield percentage and shrinkage calculation modules",
+      "Dynamic menu engineering with menu matrix analysis",
+      "Real-time vendor price fluctuation impact models",
+      "Sub-recipe nesting and prep-list scaling tools",
+      "Gross margin calculation dashboards per dish"
+    ]
+  },
+  {
+    "id": "legal-case-manager",
+    "title": "LEGAL CASE MANAGER",
+    "category": "ENTERPRISE BUSINESS",
+    "slug": "legal-case-manager",
+    "description": "Organize hearings, documents, and client billing",
+    "quote": "Never miss a court deadline.",
+    "price": 40000,
+    "features": [
+      "Case ledger with full timeline and chain of custody tracking",
+      "Automated court calendar deadlines and hearing alerts",
+      "Secure, OCR-searchable legal document indexing",
+      "Billable hours tracking with granular task logs",
+      "Client retainer management and trust account trust tracking",
+      "Conflict-of-interest database checking utilities"
+    ]
+  },
+  {
+    "id": "debt-management",
+    "title": "DEBT MANAGEMENT",
+    "category": "FINANCIAL/LENDING",
+    "slug": "debt-management",
+    "description": "Non-performing loan handling module",
+    "quote": "Improve recovery rates on bad debts.",
+    "price": 40000,
+    "features": [
+      "Delinquent account segmentation and aging analysis logs",
+      "Automated payment restructurings and promise-to-pay tracking",
+      "Collectors allocation dashboard with route planning logs",
+      "Legal demand letter automation and compliance auditing",
+      "Multi-channel collection alerts via SMS, Voice, and Mail",
+      "Settlement margin calculating analytics engines"
+    ]
+  },
+  {
+    "id": "product-information",
+    "title": "PRODUCT INFORMATION",
+    "category": "RETAIL",
+    "slug": "product-information",
+    "description": "Product data and catalog management",
+    "quote": "Maintain consistent product data across channels.",
+    "price": 40000,
+    "features": [
+      "Centralized PIM repository for multidimensional product specifications",
+      "Bulk asset media uploading and variant grouping maps",
+      "Data validation criteria trackers for marketplaces",
+      "Localization, translation, and localized pricing tools",
+      "Upstream ERP and supplier inventory integration utilities",
+      "Instant dynamic syndication engine to channels"
+    ]
+  },
+  {
+    "id": "pos-inventory-system",
+    "title": "POS + INVENTORY SYSTEM",
+    "category": "RETAIL",
+    "slug": "pos-inventory-system",
+    "description": "Complete retail transaction and inventory management",
+    "quote": "Eliminate stock shrinkage immediately.",
+    "price": 45000,
+    "features": [
+      "High-performance offline-first touchscreen register interfaces",
+      "Granular barcode printing and automated stock unit generation",
+      "FIFO/LIFO stock evaluation engine with balance sheets",
+      "Real-time reorder point threshold triggers with alerts",
+      "Multi-register transaction tracking and cash drawer auditing",
+      "Supplier purchase orders and invoice routing structures"
+    ]
+  },
+  {
+    "id": "workplace-management",
+    "title": "WORKPLACE MANAGEMENT",
+    "category": "ENTERPRISE BUSINESS",
+    "slug": "workplace-management",
+    "description": "Smart office and facility management module",
+    "quote": "Optimize office space utilization.",
+    "price": 45000,
+    "features": [
+      "Interactive digital floorplans for dynamic desking and rooms",
+      "Visitor registration kiosks with automated check-in logs",
+      "IoT sensor configuration boards for utilities and safety hubs",
+      "Preventative workspace equipment asset health tracking",
+      "Office supplies procurement and asset dispatching",
+      "Space allocation optimization diagnostic reports"
+    ]
+  },
+  {
+    "id": "event-banquet",
+    "title": "EVENT & BANQUET",
+    "category": "REAL ESTATE & PROPERTY",
+    "slug": "event-banquet",
+    "description": "Venue booking and event planning module",
+    "quote": "Maximize venue utilization and revenue.",
+    "price": 45000,
+    "features": [
+      "Visual master timeline blockouts for event spaces",
+      "Banquet Event Order sheet engines with custom printouts",
+      "Catering and asset setup equipment mapping toolsets",
+      "Tiered milestone payment tracking models with contract sign-offs",
+      "Vendor allocation calendars and coordination logs",
+      "Floor layout planners with table asset counts"
+    ]
+  },
+  {
+    "id": "loan-origination",
+    "title": "LOAN ORIGINATION",
+    "category": "FINANCIAL/LENDING",
+    "slug": "loan-origination",
+    "description": "Digital loan application processing module",
+    "quote": "Faster loan approvals with less paperwork.",
+    "price": 55000,
+    "features": [
+      "Custom digital application submission and KYC pipelines",
+      "Automated credit score computations and evaluation engines",
+      "Collateral valuation ledgers and document storage matrices",
+      "Underwriter collaboration logs and dynamic checklist verification",
+      "Disbursement confirmation feeds with multi-institution links",
+      "Amortization schedule configurations with rule systems"
+    ]
+  },
+  {
+    "id": "facility-management",
+    "title": "FACILITY MANAGEMENT",
+    "category": "REAL ESTATE & PROPERTY",
+    "slug": "facility-management",
+    "description": "Building operations and maintenance module",
+    "quote": "Prolong asset lifespan with preventive care.",
+    "price": 55000,
+    "features": [
+      "Preventative maintenance scheduler with asset mapping",
+      "Tenant support ticket routing with status priorities",
+      "Subcontractor assignment logs and task checklists",
+      "Meters and shared energy distribution tracking matrices",
+      "Emergency plan compliance protocols and routine safety audit forms",
+      "MRO part inventory and replacement cost trackers"
+    ]
+  },
+  {
+    "id": "property-man-system",
+    "title": "PROPERTY MAN. SYSTEM",
+    "category": "REAL ESTATE & PROPERTY",
+    "slug": "property-man-system",
+    "description": "Automate rental complexities and utility billing",
+    "quote": "Centralized billing for multi-unit properties.",
+    "price": 60000,
+    "features": [
+      "Multi-tenant lease contract compliance lifecycle engines",
+      "Automated monthly rent, utility, and shared cost billing",
+      "Online resident payment portals with automated collection matches",
+      "Move-in/Move-out inspection checklists and deposit ledgers",
+      "Vacancy tracking metrics with instant marketplace listings",
+      "Late penalty rule runs and legal notice configurations"
+    ]
+  },
+  {
+    "id": "student-information",
+    "title": "STUDENT INFORMATION",
+    "category": "EDUCATION",
+    "slug": "student-information",
+    "description": "Academic records and enrollment module",
+    "quote": "Simplify student lifecycle management.",
+    "price": 65000,
+    "features": [
+      "Student profile generation with historical record logs",
+      "Online curriculum planning, registration, and subject setup",
+      "Automated tuition fee computation structures per curriculum",
+      "Digital grading sheets with real-time class transcript exports",
+      "Class schedule conflicts prevention calendars",
+      "Parent and student dashboards for clearance statuses"
+    ]
+  },
+  {
+    "id": "fleet-tracking",
+    "title": "FLEET TRACKING",
+    "category": "LOGISTICS",
+    "slug": "fleet-tracking",
+    "description": "Vehicle fleet operations and tracking",
+    "quote": "Reduce fuel costs and improve driver safety.",
+    "price": 75000,
+    "features": [
+      "GPS tracking with live geo-fence monitoring integrations",
+      "Driver assignment, trip logs, and behavior profiling telemetry",
+      "Fuel consumption monitoring logbooks and variance indicators",
+      "Preventive diagnostic maintenance alerts per kilometer matrix",
+      "Dispatched cargo safety monitoring checkpoints",
+      "Vehicle registration and commercial permit tracking"
+    ]
+  },
+  {
+    "id": "pms-pos-scm",
+    "title": "PMS + POS + SCM",
+    "category": "MEDICAL/CLINIC.HEALTH",
+    "slug": "pms-pos-scm",
+    "description": "Pharmacy POS + inventory, Track categories, dosages, and expiry",
+    "quote": "Prevents loss from expired stock.",
+    "price": 85000,
+    "features": [
+      "Unified prescription checkout and patient chart integration",
+      "Dynamic procurement planning linked directly to stock thresholds",
+      "Multi-category compound, dosage form, and packaging classifications",
+      "Batch and lot sorting tracks with auto-markdown on early expiry",
+      "Central warehouse distribution to retail storefront paths",
+      "Supplier rebate and contract execution dashboard"
+    ]
+  },
+  {
+    "id": "resto-cafe-pos-kds",
+    "title": "RESTO/CAFE POS + KDS",
+    "category": "FOOD & BEVERAGES",
+    "slug": "resto-cafe-pos-kds",
+    "description": "Complete POS + Inventory, High-speed ordering to kitchen",
+    "quote": "Increases table turnover speed.",
+    "price": 85000,
+    "features": [
+      "Touchscreen table layouts with live reservation tags",
+      "Instant Kitchen Display System routing with preparation priority alerts",
+      "Menu modification, splits, and custom bill combination tools",
+      "Real-time ingredient deduction matrix per POS checkout transaction",
+      "Server breakdown shift reports and gratuity pooling splits",
+      "Online delivery platform order consolidation hub"
+    ]
+  },
+  {
+    "id": "electronic-health-records",
+    "title": "ELECTRONIC HEALTH RECORDS",
+    "category": "MEDICAL/CLINIC.HEALTH",
+    "slug": "electronic-health-records",
+    "description": "Digital medical records management",
+    "quote": "Access patient records anywhere, anytime.",
+    "price": 85000,
+    "features": [
+      "Complete patient medical history with timeline view",
+      "Lab integration for automatic result import",
+      "Prescription management with drug interaction alerts",
+      "Clinical notes with templates for common conditions",
+      "Interoperability with other healthcare systems",
+      "Allergy and medication tracking",
+      "Immunization records management",
+      "Referral management to specialists"
+    ]
+  },
+  {
+    "id": "credit-chain-system",
+    "title": "CREDIT CHAIN SYSTEM",
+    "category": "FINANCIAL/LENDING",
+    "slug": "credit-chain-system",
+    "description": "Digitize credit operations and automated ledgers",
+    "quote": "Improves collection rates by 40%.",
+    "price": 100000,
+    "features": [
+      "Hierarchical credit line definitions for merchants and agents",
+      "Real-time credit balance validations across processing links",
+      "Automated double-entry reconciliation ledgers",
+      "Dynamic interest accrual and transaction fee calculations",
+      "Settlement batch execution with clearing house links",
+      "Fraudulent transaction pattern tracking watchlists"
+    ]
+  },
+  {
+    "id": "warehouse-man-system",
+    "title": "WAREHOUSE MAN. SYSTEM",
+    "category": "LOGISTICS",
+    "slug": "warehouse-man-system",
+    "description": "Master supply chain with bin-location tracking",
+    "quote": "Reduces picking errors by 95%.",
+    "price": 105000,
+    "features": [
+      "Intelligent 3D zone, rack, and bin mapping layout setup",
+      "Directed barcode put-away and cross-docking rule controllers",
+      "Wave and batch order picking task allocation strategies",
+      "Real-time serial number and tracking pallet identification codes",
+      "Cycle counting workflow routines without operation freezes",
+      "Shipping manifests verification arrays and courier linkages"
+    ]
+  },
+  {
+    "id": "hospital-operations",
+    "title": "HOSPITAL OPERATIONS",
+    "category": "MEDICAL/CLINIC.HEALTH",
+    "slug": "hospital-operations",
+    "description": "Complete hospital operations module",
+    "quote": "Streamline hospital workflows end-to-end.",
+    "price": 125000,
+    "features": [
+      "Central emergency, inpatient, and outpatient triage intake",
+      "Operating room, bed availability, and ward monitoring boards",
+      "Cross-departmental order entry and routing matrix (CPOE)",
+      "Integrated diagnostic imaging, DICOM viewers, and lab interfaces",
+      "PhilHealth case rate computation engines with automated claims forms",
+      "Nurse shifting assignments and patient vital chart telemetry logs"
+    ]
+  },
+  {
+    "id": "hotel-booking-system",
+    "title": "HOTEL BOOKING SYSTEM",
+    "category": "REAL ESTATE & PROPERTY",
+    "slug": "hotel-booking-system",
+    "description": "Manage check-ins, housekeeping, and billing",
+    "quote": "Zero overbooking errors.",
+    "price": 150000,
+    "features": [
+      "Interactive front-desk matrix showing real-time room statuses",
+      "OTA channel allocation engine with instant price updates",
+      "Housekeeping priority assignments and room inspection logs",
+      "Guest folio accounts for room service, minibar, and split bills",
+      "Corporate group booking contract rate rule matrices",
+      "Keycard interface integrations and night audit runners"
+    ]
+  },
+  {
+    "id": "cooperative-system",
+    "title": "COOPERATIVE SYSTEM",
+    "category": "FINANCIAL/LENDING",
+    "slug": "cooperative-system",
+    "description": "Manage member shares, dividends, and loans",
+    "quote": "Ensure 100% transparency for members.",
+    "price": 175000,
+    "features": [
+      "Granular capital share ledgers and savings account interest engines",
+      "Patronage refund and annual dividend calculation processors",
+      "Cooperative loan application, processing, and co-maker validation tracking",
+      "Automated salary deduction mapper and deposit matching workflows",
+      "CDA compliance reporting and financial audit trail exports",
+      "General assembly voting registration controls and proxy tracking"
+    ]
+  },
+  {
+    "id": "hris-payroll-system",
+    "title": "HRIS & PAYROLL SYSTEM",
+    "category": "SPO",
+    "slug": "hris-payroll-system",
+    "description": "Unified portal for workforce management",
+    "quote": "Reduces payroll processing time by 90%.",
+    "price": 190000,
+    "features": [
+      "Philippine compliance calculation runs (SSS, PhilHealth, Pag-IBIG, BIR 2316)",
+      "Flexible shifting matrices with complex night differential tracking",
+      "Employee self-service portals for leave, OT, and dispute filing",
+      "Biometric log syncing with automated exception flagging logs",
+      "Bank file generation templates for automated salary credits",
+      "Performance evaluations and training certificate logs"
+    ]
+  },
+  {
+    "id": "medical-info-system",
+    "title": "MEDICAL INFO. SYSTEM",
+    "category": "MEDICAL/CLINIC.HEALTH",
+    "slug": "medical-info-system",
+    "description": "Paperless, HIS, EMR and Digital Prescriptions",
+    "quote": "Focus on patient care, not paperwork.",
+    "price": 250000,
+    "features": [
+      "Enterprise-grade Health Information System core architectures",
+      "Highly secure medical telemetry logs with strict access controls",
+      "Digital prescription pad with authenticated barcode signatures",
+      "Cross-clinic patient records aggregation portals",
+      "Analytical epidemiological data reporting visualizations",
+      "Insurance provider processing framework validation suites"
+    ]
+  },
+  {
+    "id": "learning-man-system",
+    "title": "LEARNING MAN. SYSTEM",
+    "category": "EDUCATION",
+    "slug": "learning-man-system",
+    "description": "Synchronous and asynchronous digital campus",
+    "quote": "Scale to thousands of students effortlessly.",
+    "price": 250000,
+    "features": [
+      "SCORM/xAPI compliant course authoring and lesson player engines",
+      "Live streaming video classroom integrations with attendance monitors",
+      "Automated grading quiz systems with anti-cheat detection algorithms",
+      "Student discussion boards, peer evaluation pools, and messaging lines",
+      "Interactive gamification components (Points, badges, rank logs)",
+      "Institutional certification creation templates with validation verification"
+    ]
+  }
+]
