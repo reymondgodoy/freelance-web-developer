@@ -18,7 +18,7 @@ const HeroSection = () => {
 
         <div className="mt-10 flex flex-wrap gap-3">
           <Link
-            href="/web-development"
+            href="/website-development"
             className="inline-flex h-12 items-center justify-center rounded-full bg-primary px-6 text-sm font-medium text-primary-foreground transition-transform hover:-translate-y-0.5"
           >
             Explore web development

@@ -72,10 +72,10 @@ export function SiteFooter() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full max-w-6xl text-center">
           <p>&copy; {new Date().getFullYear()} Reymond. All rights reserved.</p>
           <div className="">
-            <Link href="/privacy" className="transition-colors hover:text-foreground">
+            <Link href="/#" className="transition-colors hover:text-foreground">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="transition-colors hover:text-foreground">
+            <Link href="/#" className="transition-colors hover:text-foreground">
               Terms of Service
             </Link>
           </div>
