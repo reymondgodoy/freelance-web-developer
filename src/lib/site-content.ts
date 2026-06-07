@@ -170,7 +170,7 @@ export const footerGroups = [
     links: [
       { label: 'SEO Optimization', href: '/seo-optimization' },
       { label: 'Web Design', href: '/website-design' },
-      { label: 'Website Development', href: '/web-development' },
+      { label: 'Website Development', href: '/website-development' },
       { label: 'Website Hosting', href: '/website-hosting' },
       { label: 'Website Maintenance & Support', href: '/support-and-maintenance' },
       { label: 'Website Testing & Automation', href: '/website-testing' },
