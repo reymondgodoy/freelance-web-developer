@@ -5,6 +5,9 @@ export const siteBrand = {
   description: 'A Philippines-based freelance web developer building websites for clients who want to grow their business online.',
   shortDescription: 'Freelance website development for business owners who need a clear, professional, and growth-ready online presence.',
   address: 'Dipolog City, Philippines, 7100',
+  locality: 'Dipolog City',
+  postalCode: '7100',
+  addressCountry: 'PH',
   email: 'reymondgodoy89@gmail.com',
   mailto: 'mailto:reymondgodoy89@gmail.com?subject=Project%20Inquiry',
   url: 'https://reymond.online',
@@ -36,7 +39,7 @@ export const industryLinks = [
   { href: '/website-development#industry-food-beverages', label: 'Food & Beverages' },
   { href: '/website-development#industry-real-estate-property', label: 'Real Estate & Property' },
   { href: '/website-development#industry-education', label: 'Education' },
-  { href: '/website-development#industry-spo', label: 'SPO' },
+  { href: '/website-development#industry-spo', label: 'Social Enterprise (SPO)' },
 ] as const;
 
 export const aboutPoints = [
