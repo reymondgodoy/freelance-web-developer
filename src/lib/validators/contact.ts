@@ -28,9 +28,9 @@ export const contactSchema = z.object({
     .min(1, 'Project description is required.')
     .refine(val => val.trim().split(/\s+/).length >= 25, 'Project description must be at least 25 words.'),
 
-  contact_method: z
-    .enum(['Email', 'Phone Call', 'Video Conference (Zoom/Google Meet)'])
-    .refine(val => val !== undefined, { message: 'Please select a contact method.' }),
+  contact_method: z.enum(['Email', 'Phone Call', 'Video Conference (Zoom/Google Meet)'], {
+    error: () => 'Please select a contact method.',
+  }),
 
   contact_time: z.enum(['Morning (9:00 AM – 12:00 PM)', 'Afternoon (1:00 PM – 5:00 PM)', 'Any Business Hours']).optional(),
 

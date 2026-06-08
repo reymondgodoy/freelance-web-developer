@@ -81,9 +81,9 @@ export default async function RootLayout({
     description: siteBrand.description,
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'San Pedro',
-      addressCountry: 'PH',
-      postalCode: '4023',
+      addressLocality: siteBrand.locality,
+      addressCountry: siteBrand.addressCountry,
+      postalCode: siteBrand.postalCode,
     },
     areaServed: ['Philippines', 'Global'],
     serviceType: ['Website Development', 'Landing Page Development', 'Business Website Development', 'Website Content', 'Website Maintenance'],
