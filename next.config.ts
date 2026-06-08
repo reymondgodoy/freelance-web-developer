@@ -1,9 +1,11 @@
 import type { NextConfig } from 'next';
 
-// F-007: fail fast at build/deploy time when the Turnstile site key is missing
-// instead of letting the /contact page 500 at first user visit.
+// Fail fast at build/deploy time when required public env vars are missing.
+// Without this, the contact form would silently POST to `undefined/api/contact`
+// and the user would see a fake success state with the lead going nowhere.
 const requiredPublicEnv: Record<string, string | undefined> = {
   NEXT_PUBLIC_TURNSTILE_SITE_KEY: process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY,
+  NEXT_PUBLIC_BASE_API_URL: process.env.NEXT_PUBLIC_BASE_API_URL,
 };
 
 for (const [name, value] of Object.entries(requiredPublicEnv)) {
