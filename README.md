@@ -43,13 +43,31 @@ Clone or open the project, then install dependencies:
 npm install
 ```
 
-Create a `.env` file in the project root and add the required email variables:
+Create a `.env` file in the project root and add the required variables:
 
 ```env
+# Backend email delivery (consumed by src/app/api/contact/route.ts)
 GMAIL_USER="your-gmail-address@gmail.com"
 GMAIL_APP_PASSWORD="your-gmail-app-password"
 CONTACT_RECEIVER="where-contact-requests-should-go@example.com"
+
+# Frontend (consumed by next.config.ts and the contact form)
+NEXT_PUBLIC_BASE_API_URL="https://your-api.example.com"
+NEXT_PUBLIC_TURNSTILE_SITE_KEY="your-cloudflare-turnstile-site-key"
 ```
+
+`NEXT_PUBLIC_BASE_API_URL` is the base URL of the contact API. The contact
+form posts to `${NEXT_PUBLIC_BASE_API_URL}/api/contact`. Use an empty
+string or the same origin in development if you proxy the request
+locally.
+
+`NEXT_PUBLIC_TURNSTILE_SITE_KEY` is the public site key issued by
+Cloudflare Turnstile and is bound to the domain the form is served from.
+
+Both `NEXT_PUBLIC_*` variables are required at build time: `next.config.ts`
+fails the build with a clear error if either is missing, so a misconfigured
+deploy cannot silently drop leads because the contact form posted to
+`undefined/api/contact`.
 
 Use a Gmail app password, not your normal Gmail account password.
 
