@@ -11,11 +11,12 @@ export const siteBrand = {
   email: 'reymondgodoy89@gmail.com',
   mailto: 'mailto:reymondgodoy89@gmail.com?subject=Project%20Inquiry',
   url: 'https://reymond.online',
-  socials: [
-    { label: 'Facebook', href: 'https://www.facebook.com/', icon: 'f' },
-    { label: 'Instagram', href: 'https://www.instagram.com/', icon: 'ig' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: 'in' },
-  ],
+  // Socials previously pointed at the Facebook / Instagram / LinkedIn
+  // homepages rather than the brand's own profiles. Hide the social row in
+  // the footer until each entry is replaced with the real profile URL (and a
+  // matching single-letter `icon`). Re-add entries of the shape
+  // `{ label, href, icon }` when the profiles exist.
+  socials: [] as ReadonlyArray<{ label: string; href: string; icon: string }>,
 } as const;
 
 export const navLinks = [
