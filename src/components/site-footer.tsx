@@ -71,14 +71,12 @@ export function SiteFooter() {
       <div className="border-t border-border flex items-center justify-center w-full px-6 py-2 text-center text-sm bg-muted/20 text-muted-foreground">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full max-w-6xl text-center">
           <p>&copy; {new Date().getFullYear()} Reymond. All rights reserved.</p>
-          <div className="">
-            <Link href="/#" className="transition-colors hover:text-foreground">
-              Privacy Policy
-            </Link>
-            <Link href="/#" className="transition-colors hover:text-foreground">
-              Terms of Service
-            </Link>
-          </div>
+          {/*
+            Privacy Policy and Terms of Service routes do not exist yet, and
+            the contact form's consent checkbox references the Privacy Policy.
+            Keep the links out of the footer until the pages are added so the
+            legal copy and the consent flow stay consistent.
+          */}
         </div>
       </div>
     </footer>
