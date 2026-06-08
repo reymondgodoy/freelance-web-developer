@@ -51,56 +51,10 @@ export const aboutPoints = [
   'Prepare deployment guidance and finalize key pages so the website is ready for launch and real user interaction.',
 ] as const;
 
-export const webServicingPackages = [
-  {
-    title: 'Service / Home Launch',
-    summary: 'High-conversion homepages for new brands and relaunches.',
-  },
-  {
-    title: 'Service / Brand Story',
-    summary: 'About pages that build trust and frame the offer clearly.',
-  },
-  {
-    title: 'Service / Service Stack',
-    summary: 'Service pages that explain deliverables, benefits, and next steps.',
-  },
-  {
-    title: 'Service / Booking Flow',
-    summary: 'Consultation and appointment pages with simple conversion paths.',
-  },
-  {
-    title: 'Service / E-Commerce',
-    summary: 'Storefronts with product listings, carts, and checkout paths.',
-  },
-  {
-    title: 'Service / Client Portal',
-    summary: 'Dashboards for proposals, staging links, approvals, and updates.',
-  },
-  {
-    title: 'Service / Admin Console',
-    summary: 'Internal screens for content, users, and operational control.',
-  },
-  {
-    title: 'Service / FAQ Center',
-    summary: 'Searchable help pages that reduce support friction.',
-  },
-  {
-    title: 'Service / Pricing Table',
-    summary: 'Clear pricing and package pages that help clients decide faster.',
-  },
-  {
-    title: 'Service / Case Study',
-    summary: 'Portfolio pages that show process, result, and proof.',
-  },
-  {
-    title: 'Service / Retainer Hub',
-    summary: 'Maintenance and support pages for post-launch care.',
-  },
-  {
-    title: 'Service / Contact Funnel',
-    summary: 'Forms and lead capture pages with strong qualification steps.',
-  },
-] as const;
+// `webServicingPackages` is no longer exported. It was defined but never
+// imported anywhere in the rendered app, and every entry duplicated the
+// "Service /" prefix. Reintroduce it (without the prefix) when an actual
+// component consumes the data.
 
 export const serviceCards = [
   {
