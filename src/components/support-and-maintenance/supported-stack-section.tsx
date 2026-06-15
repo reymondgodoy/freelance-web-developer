@@ -65,14 +65,14 @@ export function SupportedStackSection() {
               {/* Category header */}
               <div className="flex items-center gap-2.5 mb-5">
                 <span className={`h-2 w-2 rounded-full ${category.dotColor} shrink-0`} />
-                <p className={`text-xs font-bold uppercase tracking-widest ${category.color}`}>{category.label}</p>
+                <h3 className={`text-xs font-bold uppercase tracking-widest ${category.color}`}>{category.label}</h3>
               </div>
 
               {/* Tool list */}
               <ul className="space-y-3">
                 {category.tools.map(tool => (
                   <li key={tool.name} className="rounded-xl border border-border bg-card px-4 py-3">
-                    <p className="text-sm font-semibold text-foreground">{tool.name}</p>
+                    <h4 className="text-sm font-semibold text-foreground">{tool.name}</h4>
                     <p className="mt-0.5 text-xs leading-5 text-muted-foreground">{tool.note}</p>
                   </li>
                 ))}
