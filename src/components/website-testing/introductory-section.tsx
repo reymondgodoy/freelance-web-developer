@@ -39,7 +39,7 @@ export function IntroductorySection() {
             <div className="mt-6 space-y-4">
               <div className="rounded-2xl border border-border bg-card p-5">
                 <div className="flex items-center gap-2.5">
-                  <span className="font-semibold text-foreground">Puppeteer</span>
+                  <h3 className="font-semibold text-foreground">Puppeteer</h3>
                   <span className="rounded-full border border-border bg-background px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
                     Headless Chrome
                   </span>
@@ -51,7 +51,7 @@ export function IntroductorySection() {
 
               <div className="rounded-2xl border border-border bg-card p-5">
                 <div className="flex items-center gap-2.5">
-                  <span className="font-semibold text-foreground">Selenium</span>
+                  <h3 className="font-semibold text-foreground">Selenium</h3>
                   <span className="rounded-full border border-border bg-background px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
                     Cross-Browser
                   </span>
