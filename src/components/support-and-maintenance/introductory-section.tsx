@@ -65,7 +65,7 @@ const IntroductorySection = () => {
                       <Icon className="h-4 w-4" />
                     </div>
                     <div>
-                      <p className="text-sm font-semibold text-foreground">{item.title}</p>
+                      <h3 className="text-sm font-semibold text-foreground">{item.title}</h3>
                       <p className="mt-1 text-sm leading-6 text-muted-foreground">{item.body}</p>
                     </div>
                   </div>
