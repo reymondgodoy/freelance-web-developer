@@ -7,7 +7,7 @@ export function CTA() {
         <div className="grid gap-8 md:grid-cols-[2fr_1fr] md:items-start md:justify-between">
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-primary">Get started</span>
-            <h3 className="mt-2 text-xl font-semibold tracking-tight text-foreground sm:text-2xl">Want to know how Reymond can help your business?</h3>
+            <h2 className="mt-2 text-xl font-semibold tracking-tight text-foreground sm:text-2xl">Want to know how Reymond can help your business?</h2>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">Request a call back to see how Reymond can grow and manage your business.</p>
           </div>
 
