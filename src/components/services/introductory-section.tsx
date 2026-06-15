@@ -29,6 +29,25 @@ export default function IntroductorySection() {
     <section className="relative overflow-hidden px-4 py-24 sm:px-6 lg:px-8 border-t border-border/70 bg-background">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-16 lg:grid-cols-12 lg:gap-8 items-center">
+          <div className="lg:col-span-5 lg:order-last flex flex-col justify-center max-w-3xl">
+            <SectionLabel>About these services</SectionLabel>
+
+            <h2 className="mt-6 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl leading-tight">
+              Everything needed to build, launch, and maintain a professional website.
+            </h2>
+
+            <div className="mt-6 space-y-5 text-base leading-7 text-muted-foreground">
+              <p>
+                Businesses often need more than just a website. They need design, deployment guidance, maintenance, testing, and support that continues
+                after launch.
+              </p>
+              <p>
+                The services below are organized into focused solutions that can be selected individually or combined into a larger project depending on
+                your requirements.
+              </p>
+            </div>
+          </div>
+
           <div className="lg:col-span-7 grid gap-4 sm:grid-cols-2">
             {principles.map(item => {
               const Icon = item.icon;
@@ -47,26 +66,6 @@ export default function IntroductorySection() {
                 </div>
               );
             })}
-          </div>
-
-          {/* Right Panel: The Content (lg:col-span-5) */}
-          <div className="lg:col-span-5 flex flex-col justify-center max-w-3xl">
-            <SectionLabel>About these services</SectionLabel>
-
-            <h2 className="mt-6 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl leading-tight">
-              Everything needed to build, launch, and maintain a professional website.
-            </h2>
-
-            <div className="mt-6 space-y-5 text-base leading-7 text-muted-foreground">
-              <p>
-                Businesses often need more than just a website. They need design, deployment guidance, maintenance, testing, and support that continues
-                after launch.
-              </p>
-              <p>
-                The services below are organized into focused solutions that can be selected individually or combined into a larger project depending on
-                your requirements.
-              </p>
-            </div>
           </div>
         </div>
       </div>
