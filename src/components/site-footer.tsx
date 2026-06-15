@@ -43,7 +43,7 @@ export function SiteFooter() {
 
           {footerGroups.map(group => (
             <div key={group.title}>
-              <h3 className="text-base font-extrabold text-foreground">{group.title}</h3>
+              <span className="text-base font-extrabold text-foreground">{group.title}</span>
               <ul className="mt-6 space-y-2.5 text-sm text-muted-foreground">
                 {group.links.map(item => (
                   <li key={item.label}>
