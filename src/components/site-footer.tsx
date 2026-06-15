@@ -57,7 +57,7 @@ export function SiteFooter() {
           ))}
 
           <div>
-            <h3 className="text-base font-extrabold text-foreground">Contact Info</h3>
+            <span className="text-base font-extrabold text-foreground">Contact Info</span>
             <address className="mt-6 space-y-2 text-sm not-italic text-[#172033] dark:text-muted-foreground">
               <p>{siteBrand.address}</p>
               <a href={`mailto:${siteBrand.email}`} className="transition-colors hover:text-[#dc2b12] dark:hover:text-primary">
