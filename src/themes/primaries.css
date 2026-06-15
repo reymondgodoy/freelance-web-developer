@@ -1,0 +1,50 @@
+[data-primary='slate'] {
+  --primary: hsl(222.2 47.4% 11.2%);
+  --primary-foreground: hsl(210 40% 98%);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+}
+
+[data-primary='emerald'] {
+  --primary: hsl(142.1 76.2% 36.3%);
+  --primary-foreground: hsl(210 40% 98%);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+}
+
+[data-primary='sky'] {
+  --primary: hsl(199.7 89.2% 48.2%);
+  --primary-foreground: hsl(210 40% 98%);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+}
+
+[data-primary='amber'] {
+  --primary: hsl(37.7 92.1% 50.2%);
+  --primary-foreground: hsl(222.2 47.4% 11.2%);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+}
+
+[data-primary='default'] {
+  --primary: hsl(346.8 77.2% 49.8%);
+  --primary-foreground: hsl(210 40% 98%);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+}
+
+[data-primary='green'] {
+  --primary: hsl(154 78% 44%);
+  --primary-foreground: hsl(154 30% 10%);
+  --ring: hsl(154 78% 44%);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-ring: var(--primary);
+}
+
+[data-primary='violet'] {
+  --primary: hsl(262.1 83.3% 57.8%);
+  --primary-foreground: hsl(210 40% 98%);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+}
