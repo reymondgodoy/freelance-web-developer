@@ -8,8 +8,9 @@ import ProcessSection from '@/components/website-design/process-section';
 import DesignsSection from '@/components/website-design/designs-section';
 
 export const metadata: Metadata = {
-  title: 'UI/UX Web Design',
-  description: 'We help businesses get a website design that fits their brand, guides their visitors, and is built to hand off directly into development.',
+  title: 'UI UX Web Design for Clear Business Website Growth',
+  description:
+    'Get content-first web design shaped around user experience, visual hierarchy, mobile layouts, and clear actions for business visitors.',
 };
 
 export default function WebDesignPage() {

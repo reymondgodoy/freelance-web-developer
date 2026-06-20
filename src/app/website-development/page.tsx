@@ -8,8 +8,9 @@ import { ProcessSection } from '@/components/process-section';
 import { CTA } from '@/components/cta';
 
 export const metadata: Metadata = {
-  title: 'Website Development Services',
-  description: 'Freelance website development services for business websites, portals, booking systems, landing pages, and custom client projects.',
+  title: 'Scalable Website Development for Business Websites',
+  description:
+    'Build structured business websites, landing pages, portals, booking flows, and custom web projects with accountable freelance development.',
 };
 
 export default function WebDevelopmentPage() {

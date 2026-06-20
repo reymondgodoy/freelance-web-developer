@@ -8,9 +8,9 @@ import HeroSection from '@/components/website-testing/hero-section';
 import { IntroductorySection } from '@/components/website-testing/introductory-section';
 
 export const metadata: Metadata = {
-  title: 'Website Testing and Automation',
+  title: 'Website Testing Services Before Your Site Launches',
   description:
-    'Website testing and automation services for business websites, including form validation, route verification, responsive testing, browser automation, and quality assurance before launch.',
+    'Find website issues before users do with black-box functional QA, browser automation, form checks, route testing, and regression reviews.',
 };
 
 export default function WebsiteTestingPage() {

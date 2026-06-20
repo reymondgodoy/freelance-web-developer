@@ -8,9 +8,9 @@ import ServicesSection from '@/components/services/services-section';
 import IntroductorySection from '@/components/services/introductory-section';
 
 export const metadata: Metadata = {
-  title: 'Freelance Web Developer Services | Website Development & Testing',
+  title: 'Affordable Web Services for Modern Business Websites',
   description:
-    'Freelance web development services including responsive websites, UI/UX design, website testing automation using Selenium and Puppeteer, SEO optimization, deployment guidance, and website maintenance.',
+    'Explore web development, design, testing, deployment guidance, SEO optimization, and long-term support for business websites.',
 };
 
 export default function ServicesPage() {

@@ -8,9 +8,8 @@ import { CTA } from '@/components/cta';
 import ToolsSection from '@/components/about-me/tools-section';
 
 export const metadata: Metadata = {
-  title: 'About',
-  description:
-    'Meet a Philippines-based freelance web developer building business websites, landing pages, content, and support systems for growth-minded clients.',
+  title: 'About Me | Freelance Web Developer',
+  description: 'Meet a web developer who builds responsive websites, web apps, testing workflows, and maintainable solutions for real business goals.',
 };
 
 export default function AboutMePage() {
