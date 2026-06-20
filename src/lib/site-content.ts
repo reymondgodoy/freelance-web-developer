@@ -12,9 +12,9 @@ export const siteBrand = {
   mailto: 'mailto:reymondgodoy89@gmail.com?subject=Project%20Inquiry',
   url: 'https://reymond.online',
   socials: [
-    { label: 'Facebook', href: 'https://www.facebook.com/', icon: 'f' },
-    { label: 'Instagram', href: 'https://www.instagram.com/', icon: 'ig' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: 'in' },
+    { label: 'Facebook', href: 'https://www.facebook.com/reymond.godoy.71', icon: 'f' },
+    { label: 'Instagram', href: 'https://www.instagram.com/e2e2ea/', icon: 'ig' },
+    { label: 'LinkedIn', href: 'www.linkedin.com/in/reymond-godoy-5764b935a', icon: 'in' },
   ],
 } as const;
 

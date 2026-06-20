@@ -33,7 +33,7 @@ export function SiteFooter() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="inline-flex h-6 w-6 items-center justify-center rounded-[3px] bg-[#dc2b12] text-[0.68rem] font-bold uppercase leading-none text-white transition-transform hover:-translate-y-0.5"
+                  className="inline-flex h-6 w-6 items-center justify-center rounded-[3px] bg-primary text-[0.68rem] font-bold uppercase leading-none text-white transition-transform hover:-translate-y-0.5"
                 >
                   {social.icon}
                 </a>
