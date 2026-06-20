@@ -8,56 +8,31 @@ import { siteBrand } from '@/lib/site-content';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteBrand.url),
-  title: {
-    default: 'Freelance Web Developer | Business Websites for Client Growth',
-    template: '%s | Freelance Web Developer',
-  },
-  icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-    ],
-    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
-  },
-  manifest: '/site.webmanifest',
+
+  title: 'Business Websites for Client Growth | Freelance Web Developer',
+  // title: {
+  //   default: 'Business Websites for Client Growth | Freelance Web Developer',
+  //   template: '%s | Freelance Web Developer',
+  // },
+
   description:
     'Freelance website development for clients who need professional websites, landing pages, business systems, and content that helps their business grow.',
-  keywords: [
-    'freelance web developer',
-    'freelance website developer Philippines',
-    'website development Philippines',
-    'business website development',
-    'landing page developer',
-    'custom website developer',
-    'web development freelancer',
-  ],
-  alternates: {
-    canonical: '/',
+
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
+
+  manifest: '/site.webmanifest',
+
   openGraph: {
-    title: 'Freelance Web Developer | Business Websites for Client Growth',
-    description: 'Professional websites, landing pages, business systems, and content for clients who want to grow their business online.',
-    url: '/',
-    siteName: siteBrand.name,
-    locale: 'en_US',
     type: 'website',
+    siteName: siteBrand.name,
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Freelance Web Developer | Business Websites for Client Growth',
-    description: 'Freelance website development for clients who need a professional site that supports business growth.',
-  },
+
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-      'max-video-preview': -1,
-    },
   },
 };
 
@@ -99,7 +74,7 @@ export default async function RootLayout({
       data-font={settings.font}
       data-primary={settings.primary}
     >
-      <body className="min-h-full flex flex-col  text-foreground">
+      <body className="min-h-full flex flex-col text-foreground">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <ThemeSync />
         {children}

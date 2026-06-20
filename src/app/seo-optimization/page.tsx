@@ -8,9 +8,9 @@ import HeroSection from '@/components/seo-optimization/hero-section';
 import IntroductorySection from '@/components/seo-optimization/introductory-section';
 
 export const metadata: Metadata = {
-  title: 'SEO Optimization',
+  title: 'SEO Optimization Services for Better Search Visibility',
   description:
-    'We help businesses improve search visibility through technical SEO audits, keyword research, backlink planning, and on-page optimization using tools like Ahrefs, SEMrush, Moz, Google Search Console, and Lighthouse.',
+    'Improve how search engines read your site with technical audits, keyword research, on-page fixes, backlink planning, and performance reviews.',
 };
 
 export default function SeoOptimizationPage() {

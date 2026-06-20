@@ -8,9 +8,9 @@ import HeroSection from '@/components/website-hosting/hero-section';
 import IntroductorySection from '@/components/website-hosting/introductory-section';
 
 export const metadata: Metadata = {
-  title: 'Website Hosting Guidance',
+  title: 'Website Hosting Guidance for Smarter Site Launches',
   description:
-    'We help you find the right hosting platform for your budget and project type. Guidance on Vercel, Render, Heroku, and AWS so you can deploy your website with confidence.',
+    'Choose the right hosting platform for your budget and project, then get guided through deployment, domains, SSL, and post-launch checks.',
 };
 
 export default function WebsiteHostingPage() {

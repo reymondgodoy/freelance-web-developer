@@ -9,9 +9,9 @@ import HeroSection from '@/components/support-and-maintenance/hero-section';
 import IntroductorySection from '@/components/support-and-maintenance/introductory-section';
 
 export const metadata: Metadata = {
-  title: 'Support and Maintenance',
+  title: 'Website Support and Maintenance for Stable Business Sites',
   description:
-    'We help keep your website stable, secure, and up to date. Support covers MERN stack, Next.js, Node.js, Express, Laravel, PHP, React, React Native, and more.',
+    'Keep your website stable, secure, and up to date with stack-focused support, bug fixes, patches, dependency updates, and monitoring.',
 };
 
 export default function SupportMaintenancePage() {

@@ -7,9 +7,8 @@ import { CTA } from '@/components/cta';
 import HeroSection from '@/components/faqs/hero-section';
 
 export const metadata: Metadata = {
-  title: 'FAQ | Freelance Web Developer Services',
-  description:
-    'Frequently asked questions about freelance website development, web design, SEO optimization, website hosting, testing automation, maintenance, pricing, and project support.',
+  title: 'FAQs | Freelance Web Developer',
+  description: 'Find answers about website development, design, SEO, hosting guidance, testing automation, maintenance, pricing, and project timelines.',
 };
 
 const faqGroups = [
