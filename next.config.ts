@@ -14,6 +14,10 @@ for (const [name, value] of Object.entries(requiredPublicEnv)) {
   }
 }
 
+// Used in connect-src below so the CSP always matches whatever API host
+// the app is actually configured to call — no manual sync needed.
+const apiUrl = process.env.NEXT_PUBLIC_BASE_API_URL as string;
+
 const SECURITY_HEADERS = [
   {
     key: 'Strict-Transport-Security',
@@ -24,8 +28,8 @@ const SECURITY_HEADERS = [
   { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
   { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
   {
-    // F-008: conservative CSP. Allows Turnstile and same-origin assets only.
-    // Loosen `connect-src` to https://challenges.cloudflare.com if a future feature needs the API.
+    // F-008: CSP allowing Turnstile assets, same-origin assets, and the
+    // contact API (NEXT_PUBLIC_BASE_API_URL) that the form POSTs to.
     key: 'Content-Security-Policy',
     value: [
       "default-src 'self'",
@@ -33,7 +37,7 @@ const SECURITY_HEADERS = [
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data:",
       "font-src 'self' data:",
-      "connect-src 'self'",
+      `connect-src 'self' ${apiUrl} https://challenges.cloudflare.com`,
       'frame-src https://challenges.cloudflare.com',
       "base-uri 'self'",
       "form-action 'self'",
